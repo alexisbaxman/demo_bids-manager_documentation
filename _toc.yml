@@ -1,0 +1,8 @@
+root: index
+format: jb-book
+chapters:
+- file: book/introduction
+- file: book/scan
+- file: book/editor
+- file: book/tools
+- file: book/installation
