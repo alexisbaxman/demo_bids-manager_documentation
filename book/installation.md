@@ -15,7 +15,8 @@ You can install BIDS-Manager in two different ways:
 | **Linux**        | `install_bids_manager.sh`      | Allow execution and run the installer | ≈ 5 min |
 
 
-**3. Allow script execution (for Linux users)**
+**3. Allow script execution (for Linux users):**
+
 If you're working in Linux, you'll need first to allow the `.sh` script execution. This can be done in two different ways:
 
 ````{tab-set}
@@ -46,8 +47,9 @@ Make the installer executable by right-clicking the file, selecting Properties, 
 ````
 
   
-**4. Run the installer (for Linux users)**
-Now you can **double-click the installer file** or run the installer from the terminal, such as:
+**4. Run the installer (for Linux users):**
+
+Now you can **double-click the installer file** or run the installer from the terminal:
 
 ```bash
 path/to/your/installer/install_megqc.sh
@@ -77,13 +79,6 @@ source <env_name>/bin/activate
 pip install bids-manager
 ```
 
-```{admonition} Required dependencies?
-:class: tip
-
-Both installation methods include all the depencies required to run the GUI and helper scripts. All core requirements are version pinned in [`pyproject.toml`](https://github.com/ANCPLabOldenburg/BIDS-Manager/blob/main/pyproject.toml) to ensure consistent installations. 
-``` 
-
-
 ## Installation completed! 🎉
 
 After the installation finishes, you will find two **shortcuts** on your desktop:
@@ -94,3 +89,8 @@ After the installation finishes, you will find two **shortcuts** on your desktop
 | **Linux**   | **BIDS Manager** (launcher)| `uninstall_bidsmanager.sh`     |
 
 
+```{admonition} Required dependencies?
+:class: tip
+
+Both installation methods include all the depencies required to run the GUI and helper scripts. All core requirements are version pinned in [`pyproject.toml`](https://github.com/ANCPLabOldenburg/BIDS-Manager/blob/main/pyproject.toml) to ensure consistent installations. 
+``` 
