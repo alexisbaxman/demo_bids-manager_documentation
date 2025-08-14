@@ -49,7 +49,7 @@ pip install bids-manager
 The pip installation includes all the depencies required to run the GUI and helper scripts. All core requirements are version pinned in [`pyproject.toml`](https://github.com/ANCPLabOldenburg/BIDS-Manager/blob/main/pyproject.toml) to ensure consistent installations. 
 
 ```{admonition} List of dependencies
-:class: tip
+:class: dropdown
 * pydicom==3.0.1
 * pandas==2.3.1
 * PyQt5==5.15.11
