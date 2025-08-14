@@ -68,7 +68,7 @@ path/to/your/installer/install_megqc.sh
 **1. Create a virtual environment**
 
 We strongly recommend using BIDS-Manager within a **virtual environment** to avoid conflicts with system dependencies.
-The One-click installer automatically creates and manages a virtual environment, meanwhile the Manual Installation requires you to create one manually. If you want to learn more about virtual environments, [click here](../extra/environment.md)
+The One-click installer automatically creates and manages a virtual environment, meanwhile the Manual Installation requires you to create one manually. If you want to learn more about virtual environments, [click here](../extra/environment.md).
 
 ```bash
 # Navigate to your target directory and create a virtual environment
@@ -93,5 +93,5 @@ After the installation finishes, you will find two **shortcuts** on your desktop
 | OS          | Launch                    | Uninstall                      |
 |-------------|---------------------------|--------------------------------|
 | **Windows** | `run_bidsmanager.bat`      | `uninstall_bidsmanager.bat`    |
-| **Linux**   | **BIDS Manager** (launcher)| `uninstall_bidsmanager.sh`     |
+| **Linux**   | _BIDS Manager_ (launcher)| _Uninstal BIDS Manager_ (configuration file)     |
 
