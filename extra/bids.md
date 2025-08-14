@@ -11,7 +11,7 @@ The **[BIDS Specification](https://bids-specification.readthedocs.io/en/stable/)
 
 ```{admonition} ancpBIDS
 
-BIDS-Manager uses the [**ancpBIDS**](https://github.com/ANCPLabOldenburg/ancp-bids) library to handle BIDS datasets efficiently. This CLI library builds on the BIDS specification and schema to load datasets, manage metada and write derivatives directly to your local drive; all in a structure and BIDS-compliant way.
+BIDS-Manager uses the [**ancpBIDS**](https://github.com/ANCPLabOldenburg/ancp-bids) library to handle BIDS datasets efficiently. This CLI library makes use of the BIDS specification and schema to load datasets, manage metada and write derivatives directly to your local drive; all in a structured and BIDS-compliant way.
 
 Check out the [**ancpBIDS documentation**](https://ancplaboldenburg.github.io/ancpbids_documentation/index.html) for a full tutorial with examples.
 
