@@ -25,22 +25,22 @@ You can install BIDS-Manager in two ways:
 
 ## 2. Manual Installation (advanced)
 
-### a. Create a virtual environment 
+1. **Create a virtual environment**
 
 We strongly recommend using BIDS-Manager within a **virtual environment** to avoid conflicts with system dependencies.
-The One-click installer automatically creates and manages a virtual environment. Meanwhile the Manual Installation requires you to create one manually. If you want to learn more about virtual environments and how to install them, [click here](../extra/environment.md)
+The One-click installer automatically creates and manages a virtual environment, meanwhile the Manual Installation requires you to create one manually. If you want to learn more about virtual environments and how to install them, [click here](../extra/environment.md)
 
 ```bash
-# 1. Create a virtual environment
+# Navigate to your target directory and create a virtual environment
 python3 -m venv <env_name>
 
-# 2. Activate the virtual environment
+# Activate the virtual environment
 source <env_name>/bin/activate
 # On Windows: <env_name>\Scripts\activate
 
 ```
 
-### b. Install BIDS Manager from GitHub
+2. **Install BIDS Manager from GitHub*
 
 ```bash
 pip install bids-manager
