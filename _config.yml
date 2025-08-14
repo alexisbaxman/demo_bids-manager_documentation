@@ -41,7 +41,7 @@ launch_buttons:
   thebe                     : false  # Add a thebe button to pages (requires the repository to run on Binder)
 
 repository:
-  url                       : https://github.com/alexisbaxman/bids_manager  # The URL to your book's repository
+  url                       : https://github.com/alexisbaxman/demo_bids-manager_documentation  # The URL to your book's repository
   path_to_book              :  "."
   branch                    : main  # Which branch of the repository should be used when creating links
 
