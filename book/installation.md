@@ -1,5 +1,12 @@
 # Installation Guide
-You can install BIDS-Manager in two different ways:
+You can install BIDS-Manager in two different ways: one-click installer _(recommended)_ or manual installation _(for advanced users)_.
+
+```{admonition} Required dependencies?
+:class: tip
+
+Both installation methods include all the depencies required to run the GUI and helper scripts. All core requirements are version pinned in [`pyproject.toml`](https://github.com/ANCPLabOldenburg/BIDS-Manager/blob/main/pyproject.toml) to ensure consistent installations. 
+``` 
+
 
 ## One-click installers (recommended)
 
@@ -88,9 +95,3 @@ After the installation finishes, you will find two **shortcuts** on your desktop
 | **Windows** | `run_bidsmanager.bat`      | `uninstall_bidsmanager.bat`    |
 | **Linux**   | **BIDS Manager** (launcher)| `uninstall_bidsmanager.sh`     |
 
-
-```{admonition} Required dependencies?
-:class: tip
-
-Both installation methods include all the depencies required to run the GUI and helper scripts. All core requirements are version pinned in [`pyproject.toml`](https://github.com/ANCPLabOldenburg/BIDS-Manager/blob/main/pyproject.toml) to ensure consistent installations. 
-``` 
