@@ -77,11 +77,16 @@ source <env_name>/bin/activate
 pip install bids-manager
 ```
 
-
+```{admonition} Required dependencies?
+:class: tip
 
 Both installation methods include all the depencies required to run the GUI and helper scripts. All core requirements are version pinned in [`pyproject.toml`](https://github.com/ANCPLabOldenburg/BIDS-Manager/blob/main/pyproject.toml) to ensure consistent installations. 
+``` 
 
-## After the installation finishes, you will find two **shortcuts** on your desktop:
+
+## Installation completed! 🎉
+
+After the installation finishes, you will find two **shortcuts** on your desktop:
 
 | OS          | Launch                    | Uninstall                      |
 |-------------|---------------------------|--------------------------------|
