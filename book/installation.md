@@ -1,25 +1,60 @@
 # Installation Guide
 You can install BIDS-Manager in two different ways:
 
-````{tab-set}
-```{tab-item} One-click installers (recommended)
+## One-click installers (recommended)
 
 **1. Download the ZIP package:**  
 * **[📦 One-click Installers](https://github.com/ANCPLabOldenburg/BIDS-Manager/raw/main/Installers/Installers.zip
 )**
 
-
-**2. **Extract** the ZIP file and run the script for your operating system:**
+**2. **Extract** the ZIP file and run the script:**
 
 | OS               | Script                        | How to Run                         | Duration |
 |------------------|-------------------------------|------------------------------------|---------|
 | **Windows 10/11**| `install_bids_manager.bat`     | Double-click                        | ≈ 5 min |
-| **Linux**        | `install_bids_manager.sh`      | `./install_bids_manager.sh`         | ≈ 5 min |
+| **Linux**        | `install_bids_manager.sh`      | Allow execution and run the installer | ≈ 5 min |
+
+
+**3. Allow script execution (for Linux users)**
+If you're working in Linux, you'll need first to allow the `.sh` script execution. This can be done in two different ways:
+
+````{tab-set}
+```{tab-item} Option 1
+Right click and select **"Open terminal here"** or open a terminal and use:
+
+    cd /path/to/your/installer
+
+Allow "execute" option in XFCE systems
+
+    xfconf-query --channel thunar --property /misc-exec-shell-scripts-by-default --create --type bool --set true
+
+Give execute permissions to the installer
+
+    chmod +x install_megqc.sh
 
 
 ```
 
-```{tab-item} Manual Installation (advanced)
+```{tab-item} Option 2
+
+Make the installer executable by right-clicking the file, selecting Properties, navigating to the Permissions tab, and checking the box *"Allow this file to run as a program"*.
+
+  <img src="../static/install/properties.png" alt="properties-window" width="400px" align="center">
+
+
+```
+````
+
+  
+**4. Run the installer (for Linux users)**
+Now you can **double-click the installer file** or run the installer from the terminal, such as:
+
+```bash
+path/to/your/installer/install_megqc.sh
+```
+
+
+## Manual Installation (advanced)
 
 **1. Create a virtual environment**
 
@@ -43,8 +78,6 @@ pip install bids-manager
 ```
 
 
-```
-````
 
 Both installation methods include all the depencies required to run the GUI and helper scripts. All core requirements are version pinned in [`pyproject.toml`](https://github.com/ANCPLabOldenburg/BIDS-Manager/blob/main/pyproject.toml) to ensure consistent installations. 
 
