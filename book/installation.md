@@ -16,21 +16,34 @@ Both installation methods include all the depencies required to run the GUI and 
 
 **2. **Extract** the ZIP file and run the script:**
 
-| OS               | Script                        | How to Run                         | Duration |
-|------------------|-------------------------------|------------------------------------|---------|
-| **Windows 10/11**| `install_bids_manager.bat`     | Double-click                        | ≈ 5 min |
-| **Linux**        | `install_bids_manager.sh`      | Allow execution and run the installer | ≈ 5 min |
+| OS               | Script                        | How to Run                         |
+|------------------|-------------------------------|------------------------------------|
+| **Windows 10/11**| `install_bids_manager.bat`     | Double-click                        |
+| **Linux**        | `install_bids_manager.sh`      | Allow execution and run the installer |
 
 
-**3. Allow script execution (for Linux users):**
+**3. Allow script execution and run (for Linux users):**
 
 If you're working in Linux, you'll need first to allow the `.sh` script execution. This can be done in two different ways:
 
 ````{tab-set}
-```{tab-item} Option 1
+```{tab-item} Linux
 Right click and select **"Open terminal here"** or open a terminal and use:
 
     cd /path/to/your/installer
+
+Give execute permissions to the installer
+
+    chmod +x install_bids_manager.sh
+
+Run the installer
+
+    ./install_bids_manager.sh
+
+
+```
+
+```{tab-item} XFCE systems
 
 Allow "execute" option in XFCE systems
 
@@ -38,29 +51,14 @@ Allow "execute" option in XFCE systems
 
 Give execute permissions to the installer
 
-    chmod +x install_megqc.sh
+    chmod +x install_bids_manager.sh
 
+Run the installer
 
-```
-
-```{tab-item} Option 2
-
-Make the installer executable by right-clicking the file, selecting Properties, navigating to the Permissions tab, and checking the box *"Allow this file to run as a program"*.
-
-  <img src="../static/install/properties.png" alt="properties-window" width="400px" align="center">
-
+    ./install_bids_manager.sh
 
 ```
 ````
-
-  
-**4. Run the installer (for Linux users):**
-
-Now you can **double-click the installer file** or run the installer from the terminal:
-
-```bash
-path/to/your/installer/install_megqc.sh
-```
 
 
 ## Manual Installation (advanced)
