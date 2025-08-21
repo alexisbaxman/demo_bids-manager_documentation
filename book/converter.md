@@ -1,6 +1,6 @@
 # Converter Tab
 
-The first tab you'll see in BIDS-Manager is the `converter tab. This is where you can `scan` your raw data, identify different patterns and run the `conversion` into a BIDS compliant dataset.
+The first tab you'll see in BIDS-Manager is the `converter tab`. This is where you can `scan` your raw data, identify different patterns and run the `conversion` into a BIDS compliant dataset.
 
 
 <img src="../static/converter/1_general.png" alt="general-gui" width="400px" align="center">
