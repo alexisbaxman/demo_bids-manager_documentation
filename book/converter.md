@@ -16,9 +16,7 @@ The first tab you'll see in BIDS-Manager is the `converter tab`. This is where y
 ```
 
 ## Configuration
-
-<img src="../static/converter/2_configuration.png" alt="general-gui" width="400px" align="center">
-
+<img src="../static/converter/2_configuration.png" alt="configuration" width="400px" align="center">
 To scan your dataset, first you need to fullfill the `Configuration` window:
 - **Raw data Dir:** You can paste the path or `browse` to select your datasets folder. BIDS-Manager can work simulatenusly with raw data from different studies at the same time.
 - **BIDS Out Dir:** You can `paste` the path or `browse` to select the folder where you want to keep the converted output, the BIDS-compliant result. 
@@ -31,9 +29,7 @@ Both the terminal and the `Log Output` window will show some updates in the proc
 ## Scanned Data Viewer
 
 ### Scanned metadata
-
-<img src="../static/converter/3_scanned_metadata.png" alt="general-gui" width="400px" align="center">
-
+<img src="../static/converter/3_scanned_metadata.png" alt="scanned-metadata" width="400px" align="center">
 Here you can see a the **mapping table** of your uploaded raw data, including subjects, sessions, sequence types and their BIDS proposed conversion.
 * `Load TSV...`: lets you reload a dataset by browisng their _"subject_summary.tsv"_. This skips the scanning process, which can take a lot of time. You still need to set the **Raw data Dir** and the **BIDS Out Dir**.
 * `Apply changes`: saves and updates in the TSV file with any edits you've made.
@@ -41,9 +37,7 @@ Here you can see a the **mapping table** of your uploaded raw data, including su
 * `Detect repeats`: the `rep` column will show a **2**, which means that this entry is the latest version (common when a run is interrupted and restarted).
 
 ### Sequence dictionary
-
-<img src="../static/converter/3_sequence_dictionary.png" alt="general-gui" width="400px" align="center">
-
+<img src="../static/converter/3_sequence_dictionary.png" alt="sequence-dictionary" width="400px" align="center">
 Each tab corresponds to a **BIDS sequence type** and lists the keywords that BIDS-Manager uses to recognize it.
 * You can use the `Add` and `Remove` buttons to edit these keywords and include any specific naming patterns you use in your own datasets.
 * All changes will be saved for following sessions. The changes are stored in a tsv file within the environment of your BIDS-Manager.
@@ -56,34 +50,22 @@ path/to/BIDS_MANAGER\env\Lib\site-packages\bids_manager\user_preferences
 ## Filter
 
 ### General View
-<img src="../static/converter/4_filter.png" alt="general-gui" width="400px" align="center">
+<img src="../static/converter/4_filter.png" alt="general-view" width="400px" align="center">
 
 It displays all of the patterns detected in all subjects, organized and classified by **BIDS sequence types** (anat, func, fmap, dwi..). Under each modality you'll see the specific types of images and runs that were detected during scanning.
 * You can check and uncheck which ones you want to include in the final BIDS converted dataset.
 * If a sequences shows (rep2) next to its name, it means that it's a duplicated. They will be included as run-1 and run-2.
 
-
-
-
-
-
-
-For example, types of images:
-  *  T1 and T2: anatomical
-  *  dw: difusion
-  *  fmap: field maps
-  *  func: functional
-  *  bold...
-*  You can check the ones you want to include in the BIDS compliant version.
-*  If you see a `rep 2` next to a name, it means that it's a repetition of another file.
-
 ### Specific view
+<img src="../static/converter/4_filter_specific.png" alt="specific-view" width="400px" align="center">
 It's pretty similar to General view, but you can go subject by subject.
 
 ### Edit naming
+<img src="../static/converter/4_filter_name.png" alt="edit-naming" width="400px" align="center">
 You can see the Given Name and the BIDS name (such as the codeword used during participant recruiting) that will come out. You may check this section to be sure that participants are not mixed together. You may also keep the given name or another nickname, but take into account that won't be BIDS compliant.
 
  ### Always exclude
+<img src="../static/converter/4_filter_exclude.png" alt="always-exclude" width="400px" align="center">
 
  ## Preview
 
