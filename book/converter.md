@@ -56,16 +56,12 @@ path/to/BIDS_MANAGER\env\Lib\site-packages\bids_manager\user_preferences
 
 
 
-
-
-
 ## Filter
 
+### General View
 <img src="../static/converter/4_filter.png" alt="general-gui" width="400px" align="center">
 
-The filter window is also subdivided in several sections.
-
-* General view: It shows some of the patterns found in all subjects, such as types of images. This usually means that a run ended undexpectedly. This will be included in the final BIDS version as run-1 and run-2. For example, types of images:
+General view: It shows some of the patterns found in all subjects, such as types of images. This usually means that a run ended undexpectedly. This will be included in the final BIDS version as run-1 and run-2. For example, types of images:
   *  T1 and T2: anatomical
   *  dw: difusion
   *  fmap: field maps
@@ -74,10 +70,14 @@ The filter window is also subdivided in several sections.
 *  You can check the ones you want to include in the BIDS compliant version.
 *  If you see a `rep 2` next to a name, it means that it's a repetition of another file.
 
-* Specific view:
+### Specific view
 It's pretty similar to General view, but you can go subject by subject.
 
-* Edit naming: You can see the Given Name and the BIDS name (such as the codeword used during participant recruiting) that will come out. You may check this section to be sure that participants are not mixed together. You may also keep the given name or another nickname, but take into account that won't be BIDS compliant.
+### Edit naming
+You can see the Given Name and the BIDS name (such as the codeword used during participant recruiting) that will come out. You may check this section to be sure that participants are not mixed together. You may also keep the given name or another nickname, but take into account that won't be BIDS compliant.
 
- 
+ ### Always exclude
+
+ ## Preview
+
 
