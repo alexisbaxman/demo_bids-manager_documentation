@@ -41,10 +41,11 @@ Here you can see a the **mapping table** of your uploaded raw data, including su
 Each tab corresponds to a **BIDS sequence type** and lists the keywords that BIDS-Manager uses to recognize it.
 * You can use the `Add` and `Remove` buttons to edit these keywords and include any specific naming patterns you use in your own datasets.
 * All changes will be saved for following sessions. The changes are stored in a tsv file within the environment of your BIDS-Manager.
+
 ```bash
 path/to/BIDS_MANAGER\env\Lib\site-packages\bids_manager\user_preferences
-
 ```
+
 * If you want to undo modifications or fix mistakes, use the `Restore defaults` option to return to the original keyword list.
  
 ## Filter
