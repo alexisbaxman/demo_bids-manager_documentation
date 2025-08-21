@@ -64,15 +64,14 @@ The option `Only last repeats` automatically keeps the most recent version of ea
 
 ### Edit naming
 <img src="../static/converter/4_filter_name.png" alt="edit-naming" width="400px" align="center">
-You can see the Given Name and the BIDS name (such as the codeword used during participant recruiting) that will come out. You may check this section to be sure that participants are not mixed together. You may even modify the BIDS name or the given name.
-
-You may also use the dropdown to `Use BIDS name` or `Use given name`, but take into account that won't be BIDS compliant.
+This pannels displays both the **BIDS name** and the **Given Name** (e.g. the codeword used during participant recruiting). Use this section to verify that participants are not misassigned. You can also manually modify the BIDS name or the given name if correction are needed.
+The dropdown below lets you choose between `Use BIDS name` or `Use given name`, but note that selecting the Given Name option won't be BIDS compliant.
 
  ### Always exclude
 <img src="../static/converter/4_filter_exclude.png" alt="always-exclude" width="400px" align="center">
-There is already a list of typical not useful patterns that are always excluded from the `Scan`. You can `Add` new ones manually, and activate/deactivate them if you any time you want.
+BIDS-Manager has a list of common scan patterns that are usually not necesary and exclude them automatically during scanning. You can add new **patterns manually** so they won't be scan in your next session.
+All new patterns will be stored in a tsv file within your BIDS-Manager environment:
 
-The changes are stored in a tsv file within the environment of your BIDS-Manager.
 ```bash
 path/to/BIDS_MANAGER\env\Lib\site-packages\bids_manager\user_preferences
 ```
