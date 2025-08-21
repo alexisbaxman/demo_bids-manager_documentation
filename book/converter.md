@@ -59,14 +59,24 @@ It displays all of the patterns detected in all subjects, organized and classifi
 
 ### Specific view
 <img src="../static/converter/4_filter_specific.png" alt="specific-view" width="400px" align="center">
-It's pretty similar to General view, but you can go subject by subject.
+It's pretty similar to General view, but you can select specific files per subject.
+You can also check `Only last repeats`, it will automatically check the last of every duplicated type and uncheck the previous ones. This might overwrite some changes done in the General view.
 
 ### Edit naming
 <img src="../static/converter/4_filter_name.png" alt="edit-naming" width="400px" align="center">
-You can see the Given Name and the BIDS name (such as the codeword used during participant recruiting) that will come out. You may check this section to be sure that participants are not mixed together. You may also keep the given name or another nickname, but take into account that won't be BIDS compliant.
+You can see the Given Name and the BIDS name (such as the codeword used during participant recruiting) that will come out. You may check this section to be sure that participants are not mixed together. You may even modify the BIDS name or the given name.
+
+You may also use the dropdown to `Use BIDS name` or `Use given name`, but take into account that won't be BIDS compliant.
 
  ### Always exclude
 <img src="../static/converter/4_filter_exclude.png" alt="always-exclude" width="400px" align="center">
+There is already a list of typical not useful patterns that are always excluded from the `Scan`. You can `Add` new ones manually, and activate/deactivate them if you any time you want.
+
+The changes are stored in a tsv file within the environment of your BIDS-Manager.
+```bash
+path/to/BIDS_MANAGER\env\Lib\site-packages\bids_manager\user_preferences
+```
+
 
  ## Preview
 
