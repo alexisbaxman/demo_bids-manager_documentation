@@ -42,7 +42,7 @@ Here you can see a the **mapping table** of your uploaded raw data, including su
 
 ### Sequence dictionary
 
-<img src="../static/converter/3_sequence_dictionary.png.png" alt="general-gui" width="400px" align="center">
+<img src="../static/converter/3_sequence_dictionary.png" alt="general-gui" width="400px" align="center">
 
 Each tab corresponds to a **BIDS sequence type** and lists the keywords that BIDS-Manager uses to recognize it.
 * You can use the `Add` and `Remove` buttons to edit these keywords and include any specific naming patterns you use in your own datasets.
