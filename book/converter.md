@@ -59,8 +59,8 @@ It displays all of the patterns detected in all subjects, organized and classifi
 
 ### Specific view
 <img src="../static/converter/4_filter_specific.png" alt="specific-view" width="400px" align="center">
-It's pretty similar to General view, but you can select specific files per subject.
-You can also check `Only last repeats`, it will automatically check the last of every duplicated type and uncheck the previous ones. This might overwrite some changes done in the General view.
+This view is similar to the General view, but you here can select *specific files per subject*.
+The option `Only last repeats` automatically keeps the most recent version of each duplicateand deselect the older ones. Be aware, this might overwrite some changes done in the General view.
 
 ### Edit naming
 <img src="../static/converter/4_filter_name.png" alt="edit-naming" width="400px" align="center">
