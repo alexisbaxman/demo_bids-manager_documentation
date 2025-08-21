@@ -51,17 +51,24 @@ Each tab corresponds to a **BIDS sequence type** and lists the keywords that BID
 path/to/BIDS_MANAGER\env\Lib\site-packages\bids_manager\user_preferences
 
 ```
-* If want to undo modifications or fix mistakes, use the `Restore defaults` option to return to the original keyword list.
+* If you want to undo modifications or fix mistakes, use the `Restore defaults` option to return to the original keyword list.
  
-
-
-
 ## Filter
 
 ### General View
 <img src="../static/converter/4_filter.png" alt="general-gui" width="400px" align="center">
 
-General view: It shows some of the patterns found in all subjects, such as types of images. This usually means that a run ended undexpectedly. This will be included in the final BIDS version as run-1 and run-2. For example, types of images:
+It displays all of the patterns detected in all subjects, organized and classified by **BIDS sequence types** (anat, func, fmap, dwi..). Under each modality you'll see the specific types of images and runs that were detected during scanning.
+* You can check and uncheck which ones you want to include in the final BIDS converted dataset.
+* If a sequences shows (rep2) next to its name, it means that it's a duplicated. They will be included as run-1 and run-2.
+
+
+
+
+
+
+
+For example, types of images:
   *  T1 and T2: anatomical
   *  dw: difusion
   *  fmap: field maps
